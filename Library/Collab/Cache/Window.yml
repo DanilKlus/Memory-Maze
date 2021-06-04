@@ -14,48 +14,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
     m_Keys:
-    - Assets/Materials/Materials.meta
-    - Assets/Materials/Materials/concrete_16.mat
-    - Assets/Materials/Materials/concrete_16.mat.meta
-    - Assets/Materials/Materials/concrete_4.mat
-    - Assets/Materials/Materials/concrete_4.mat.meta
-    - Assets/Materials/Materials/concrete_40.mat
-    - Assets/Materials/Materials/concrete_40.mat.meta
-    - "Assets/Materials/Materials/\u0411\u0435\u0437 \u0438\u043C\u0435\u043D\u0438-1.mat"
-    - "Assets/Materials/Materials/\u0411\u0435\u0437 \u0438\u043C\u0435\u043D\u0438-1.mat.meta"
-    - "Assets/Materials/Materials/\u0411\u0435\u0441\u0448\u043E\u0432\u043D\u0430\u044F
-      \u0442\u0435\u043A\u0441\u0442\u0443\u0440\u0430 \u043C\u0435\u0442\u0430\u043B\u043B\u0430
-      #4114.mat"
-    - "Assets/Materials/Materials/\u0411\u0435\u0441\u0448\u043E\u0432\u043D\u0430\u044F
-      \u0442\u0435\u043A\u0441\u0442\u0443\u0440\u0430 \u043C\u0435\u0442\u0430\u043B\u043B\u0430
-      #4114.mat.meta"
-    - "Assets/Materials/Materials/\u0411\u0435\u0441\u0448\u043E\u0432\u043D\u0430\u044F
-      \u0442\u0435\u043A\u0441\u0442\u0443\u0440\u0430 \u043C\u0435\u0442\u0430\u043B\u043B\u0430
-      #4165.mat"
-    - "Assets/Materials/Materials/\u0411\u0435\u0441\u0448\u043E\u0432\u043D\u0430\u044F
-      \u0442\u0435\u043A\u0441\u0442\u0443\u0440\u0430 \u043C\u0435\u0442\u0430\u043B\u043B\u0430
-      #4165.mat.meta"
-    - Assets/Materials/concrete_4.jpg
-    - Assets/Materials/concrete_4.jpg.meta
-    - Assets/Materials/concrete_40.jpg
-    - Assets/Materials/concrete_40.jpg.meta
-    - "Assets/Materials/\u0411\u0435\u0441\u0448\u043E\u0432\u043D\u0430\u044F \u0442\u0435\u043A\u0441\u0442\u0443\u0440\u0430
-      \u043C\u0435\u0442\u0430\u043B\u043B\u0430 #4165.jpg"
-    - "Assets/Materials/\u0411\u0435\u0441\u0448\u043E\u0432\u043D\u0430\u044F \u0442\u0435\u043A\u0441\u0442\u0443\u0440\u0430
-      \u043C\u0435\u0442\u0430\u043B\u043B\u0430 #4165.jpg.meta"
-    - Assets/New Render Texture.renderTexture
-    - Assets/New Render Texture.renderTexture.meta
-    - Assets/New Terrain.asset
-    - Assets/New Terrain.asset.meta
+    - Assets/Materials/floor-2677114_1280.jpg
+    - Assets/Materials/floor-2677114_1280.jpg.meta
+    - "Assets/Materials/\u043F\u043E\u043B\u041C\u0418\u041D\u0418\u041C\u0410\u041F\u0410
+      1.jpg"
+    - "Assets/Materials/\u043F\u043E\u043B\u041C\u0418\u041D\u0418\u041C\u0410\u041F\u0410
+      1.jpg.meta"
     - Assets/Prefabs/Materials.meta
-    - "Assets/Prefabs/Materials/\u0411\u0435\u0437 \u0438\u043C\u0435\u043D\u0438-1.mat"
-    - "Assets/Prefabs/Materials/\u0411\u0435\u0437 \u0438\u043C\u0435\u043D\u0438-1.mat.meta"
-    - Assets/Prefabs/MazeCell.prefab
-    - Assets/Scenes/MainMenu.unity
-    - Assets/Scenes/SampleScene.unity
+    - Assets/Prefabs/Materials/polosy-zheltyy-chernyy-shtrihi 1.mat
+    - Assets/Prefabs/Materials/polosy-zheltyy-chernyy-shtrihi 1.mat.meta
+    - Assets/Prefabs/Materials/polosy-zheltyy-chernyy-shtrihi.mat
+    - Assets/Prefabs/Materials/polosy-zheltyy-chernyy-shtrihi.mat.meta
+    - Assets/Prefabs/Materials/shutterstock_121905709.mat
+    - Assets/Prefabs/Materials/shutterstock_121905709.mat.meta
     - ProjectSettings/ProjectVersion.txt
     - 
-    m_Values: 00000000000000000000000000000000000000000000000000000000000000
+    m_Values: 00000000000000000000000000
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 

@@ -9,6 +9,13 @@ public class MazeGeneratorCell
 
     public bool WallLeft = true;
     public bool WallBottom = true;
+    public bool WallLeftExit = false;
+    public bool WallBottomExit = false;
+    public bool Floor = true;
+    public bool Ceiling = true;
+    public bool Light = true;
+
+    public Color BlockLightColor = Color.red;
 
     public bool Visited;
     public int DistanceFromStart;
@@ -40,10 +47,16 @@ public class MazeGenerator
         for (var x = 0; x < maze.GetLength(0); x++)
         {
             maze[x, Height - 1].WallLeft = false;
+            maze[x, Height - 1].Floor = false;
+            maze[x, Height - 1].Ceiling = false;
+            maze[x, Height - 1].Light = false;
         }
         for (var y = 0; y < maze.GetLength(1); y++)
         {
             maze[Width - 1, y].WallBottom = false;
+            maze[Width - 1, y].Floor = false;
+            maze[Width - 1, y].Ceiling = false;
+            maze[Width - 1, y].Light = false;
         }
 
         RemoveWallsWithBacktracker(maze);
@@ -126,12 +139,28 @@ public class MazeGenerator
         }
 
         if (furthest.X == 0)
+        {
             furthest.WallLeft = false;
+            furthest.WallLeftExit = true;
+            furthest.BlockLightColor = Color.green;
+        }
         else if (furthest.Y == 0)
+        {
             furthest.WallBottom = false;
+            furthest.WallBottomExit = true;
+            furthest.BlockLightColor = Color.green;
+        }
         else if (furthest.X == Width - 2)
+        {
             maze[furthest.X + 1, furthest.Y].WallLeft = false;
+            maze[furthest.X + 1, furthest.Y].WallLeftExit = true;
+            maze[furthest.X + 1, furthest.Y].BlockLightColor = Color.green;
+        }
         else if (furthest.Y == Height - 2)
+        {
             maze[furthest.X, furthest.Y + 1].WallBottom = false;
+            maze[furthest.X, furthest.Y + 1].WallBottomExit = true;
+            maze[furthest.X + 1, furthest.Y].BlockLightColor = Color.green;
+        }
     }
 }
